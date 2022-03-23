@@ -37,3 +37,11 @@ func gemstones(arr []string) int32 {
   return int32(len(result))
 }
 ```
+
+**[Hackerrank: String Construction](https://www.hackerrank.com/challenges/string-construction/problem?h_r=internal-search)**
+
+```go
+func stringConstruction(s string) int32 {
+    return int32(len(RemoveDups(s)))
+}
+```
